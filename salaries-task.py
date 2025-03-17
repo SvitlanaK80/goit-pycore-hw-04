@@ -31,8 +31,8 @@ result = total_salary(path_to_file)
 
 if result:
     total, average, salary_list = result
-    print(f"Загальна зарплата: {total}")
-    print(f"Середня зарплата: {average}")
+    print(f"Загальна сума заробітної плати: {total}")
+    print(f"Середня зарплатазаробітна плата: {average}")
 
     print("\nСписок зарплат із файлу:")
     for entry in salary_list:
